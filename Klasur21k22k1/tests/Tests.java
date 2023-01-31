@@ -84,7 +84,6 @@ public class Tests {
 
     @Test
     public void testNachrichtenspeicherInFileGutTest() {
-        System.out.println("test");
         NachrichtenspeicherInterface speicher = this.getNachtrichtenSpeicher();
 
         String msg = "Hello world";
